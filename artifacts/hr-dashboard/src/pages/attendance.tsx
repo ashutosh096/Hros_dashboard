@@ -7,6 +7,9 @@ import { format, parseISO, startOfMonth, endOfMonth, eachDayOfInterval, isSameMo
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { CheckCircle2, XCircle, Clock, Plane } from "lucide-react";
 
+/**
+ * CSS style class mapping for attendance record status levels.
+ */
 const STATUS_STYLES: Record<string, string> = {
   PRESENT: "bg-emerald-50 text-emerald-700 border border-emerald-200",
   ABSENT: "bg-red-50 text-red-600 border border-red-200",
@@ -15,6 +18,9 @@ const STATUS_STYLES: Record<string, string> = {
   ON_LEAVE: "bg-purple-50 text-purple-700 border border-purple-200",
 };
 
+/**
+ * CSS background dot class mapping for visual attendance status indicators.
+ */
 const STATUS_DOT: Record<string, string> = {
   PRESENT: "bg-emerald-500",
   ABSENT: "bg-red-400",
@@ -23,6 +29,11 @@ const STATUS_DOT: Record<string, string> = {
   ON_LEAVE: "bg-purple-400",
 };
 
+/**
+ * AttendancePage Component
+ * Renders the attendance logs, metrics (Present/Absent/Half Day/Leave counters),
+ * and handles admin summary tables as well as individual employee calendar views.
+ */
 export default function AttendancePage() {
   const { user } = useAuth();
   const isAdmin = user?.role === "ADMIN";
