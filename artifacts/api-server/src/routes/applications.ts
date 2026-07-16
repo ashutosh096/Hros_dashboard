@@ -15,7 +15,10 @@ import { logAuditEvent } from "../lib/audit";
 
 const router: IRouter = Router();
 
-// GET /applications
+/**
+ * GET /applications
+ * Retrieves a list of all job/leave applications within the organization, ordered by ID.
+ */
 router.get("/applications", authenticateSession, async (req, res): Promise<void> => {
   const orgId = req.user!.organizationId;
   const rows = await db
@@ -27,7 +30,10 @@ router.get("/applications", authenticateSession, async (req, res): Promise<void>
   res.json(ListApplicationsResponse.parse(serializeDates(rows)));
 });
 
-// POST /applications
+/**
+ * POST /applications
+ * Creates a new application within the organization, validating request body and auditing the event.
+ */
 router.post("/applications", authenticateSession, async (req, res): Promise<void> => {
   const orgId = req.user!.organizationId;
   const actorId = req.user!.userId;
