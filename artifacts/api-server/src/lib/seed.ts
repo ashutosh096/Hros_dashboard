@@ -2,6 +2,10 @@ import { db, employeesTable, attendanceTable, meetingsTable, tasksTable, announc
 import bcrypt from "bcryptjs";
 import { eq } from "drizzle-orm";
 
+/**
+ * Seeds the database with default organization, employee accounts, mock attendance entries,
+ * tasks, meetings, and announcements if no organization currently exists.
+ */
 export async function seedDatabase() {
   await ensureDefaultAdmin();
   const existingOrgs = await db.select().from(organizationsTable);
@@ -174,6 +178,11 @@ export async function seedDatabase() {
   ]);
 }
 
+/**
+ * Ensures that a default admin account exists in the system.
+ * Creates an admin with email 'ashutoshmishraup78@gmail.com' and password 'Ashu@123'
+ * if it doesn't already exist in the database.
+ */
 export async function ensureDefaultAdmin() {
   const adminEmail = "ashutoshmishraup78@gmail.com";
   const [existingAdmin] = await db
