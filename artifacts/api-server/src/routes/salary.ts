@@ -5,6 +5,14 @@ import { authenticateSession } from "../middlewares/auth";
 
 const router = Router();
 
+/**
+ * Calculates the number of official working days (excluding Saturdays and Sundays)
+ * in a given month and year.
+ * 
+ * @param year - The year (e.g. 2026)
+ * @param month - The month index (1-12)
+ * @returns The count of weekdays in that month
+ */
 function getWorkingDays(year: number, month: number): number {
   const days = new Date(year, month, 0).getDate();
   let count = 0;
@@ -15,6 +23,11 @@ function getWorkingDays(year: number, month: number): number {
   return count;
 }
 
+/**
+ * GET /salary
+ * Computes and returns salary slips for all active employees (admins) or a specific employee.
+ * Calculates daily rate, deductions for absences, and net payable salary based on attendance.
+ */
 router.get("/salary", authenticateSession, async (req, res): Promise<void> => {
   try {
     const orgId = req.user!.organizationId;
