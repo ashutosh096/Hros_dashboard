@@ -64,7 +64,10 @@ router.post("/applications", authenticateSession, async (req, res): Promise<void
   res.status(201).json(serializeDates(application));
 });
 
-// PATCH /applications/:id
+/**
+ * PATCH /applications/:id
+ * Updates details or status of an existing application. Checks existence, records audit logs.
+ */
 router.patch("/applications/:id", authenticateSession, async (req, res): Promise<void> => {
   const orgId = req.user!.organizationId;
   const actorId = req.user!.userId;
@@ -118,7 +121,10 @@ router.patch("/applications/:id", authenticateSession, async (req, res): Promise
   res.json(UpdateApplicationResponse.parse(serializeDates(application)));
 });
 
-// DELETE /applications/:id
+/**
+ * DELETE /applications/:id
+ * Deletes a job/leave application, auditing the deletion activity.
+ */
 router.delete("/applications/:id", authenticateSession, async (req, res): Promise<void> => {
   const orgId = req.user!.organizationId;
   const actorId = req.user!.userId;
