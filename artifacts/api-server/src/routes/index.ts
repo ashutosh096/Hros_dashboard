@@ -14,12 +14,21 @@ import { authenticateSession } from "../middlewares/auth";
 
 const router: IRouter = Router();
 
+/**
+ * Public routes: Access allowed without session tokens
+ */
 router.use(healthRouter);
 router.use(authRouter);
 
-// Apply tenant authentication to all subsequent API endpoints
+/**
+ * Middleware: Apply tenant authentication session checks to subsequent API endpoints.
+ * Users must possess a valid JWT session token.
+ */
 router.use(authenticateSession as any);
 
+/**
+ * Protected routes: Session verification required
+ */
 router.use(employeesRouter);
 router.use(attendanceRouter);
 router.use(meetingsRouter);
