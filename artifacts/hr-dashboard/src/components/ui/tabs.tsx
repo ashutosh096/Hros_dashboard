@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Tabs navigator templates.
+ * Switch across visual pages using labels tabs.
+ */
+
 import * as React from "react"
 import * as TabsPrimitive from "@radix-ui/react-tabs"
 
