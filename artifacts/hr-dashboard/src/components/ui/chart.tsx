@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Chart widgets components.
+ * Wrapper for Recharts integration.
+ */
+
 import * as React from "react"
 import * as RechartsPrimitive from "recharts"
 
