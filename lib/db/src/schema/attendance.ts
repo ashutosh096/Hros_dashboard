@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for employee attendance tracking.
+ * Captures clock-in, clock-out times, and daily attendance status.
+ */
+
 import { pgTable, serial, integer, text, timestamp, numeric } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
