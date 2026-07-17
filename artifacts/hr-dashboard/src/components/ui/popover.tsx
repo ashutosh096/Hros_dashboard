@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Popover primitive components.
+ * Anchor details overlays triggered on actions.
+ */
+
 import * as React from "react"
 import * as PopoverPrimitive from "@radix-ui/react-popover"
 
