@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Carousel slideshow component.
+ * Supports navigation across grouped panels.
+ */
+
 import * as React from "react"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
