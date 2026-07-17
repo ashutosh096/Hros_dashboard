@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Hover Card primitive components.
+ * Displays additional information previews on mouse hover triggers.
+ */
+
 import * as React from "react"
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card"
 
