@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Resizable layouts.
+ * Splits views into panels that users can resize.
+ */
+
 "use client"
 
 import { GripVertical } from "lucide-react"
