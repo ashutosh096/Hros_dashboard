@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Form framework helper components.
+ * Wrapper managing input states and submit hooks.
+ */
+
 import * as React from "react"
 import * as LabelPrimitive from "@radix-ui/react-label"
 import { Slot } from "@radix-ui/react-slot"
