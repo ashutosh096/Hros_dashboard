@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for calendar meetings.
+ * Configures schedule times, links, participants, and room mappings.
+ */
+
 import { pgTable, serial, text, timestamp, integer } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
