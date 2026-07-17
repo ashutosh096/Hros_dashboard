@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Skeleton loader components.
+ * Placeholder shapes rendering during query calls.
+ */
+
 import { cn } from "@/lib/utils"
 
 function Skeleton({
