@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Keyboard Shortcut visual badges.
+ * Renders key combinations representation.
+ */
+
 import { cn } from "@/lib/utils"
 
 function Kbd({ className, ...props }: React.ComponentProps<"kbd">) {
