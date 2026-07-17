@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Drawer slide-out panel components.
+ * Sheet container sliding out from page edges.
+ */
+
 import * as React from "react"
 import { Drawer as DrawerPrimitive } from "vaul"
 
