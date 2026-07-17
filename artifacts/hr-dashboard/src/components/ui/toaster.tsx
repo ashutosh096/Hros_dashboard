@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Toast layout listener.
+ * Mounts toasts lists globally inside page structures.
+ */
+
 import { useToast } from "@/hooks/use-toast"
 import {
   Toast,
