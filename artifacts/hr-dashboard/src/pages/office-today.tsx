@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Office status registry page view.
+ * Displays who is in the office, remote, or out on leave today.
+ */
+
 import { useGetTodayAttendance, useGetDashboardUpcomingMeetings, useListTasks, useListEmployees, useListMeetings } from "@workspace/api-client-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { format, parseISO } from "date-fns";
