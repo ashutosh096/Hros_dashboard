@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for dashboard statistics.
+ * Returns aggregated metrics for tasks, announcements, and attendance summary.
+ */
+
 import { Router, type IRouter } from "express";
 import { eq, and } from "drizzle-orm";
 import { db, employeesTable, attendanceTable, meetingsTable, tasksTable } from "@workspace/db";
