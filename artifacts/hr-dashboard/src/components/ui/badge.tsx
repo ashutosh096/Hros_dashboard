@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Badge label component.
+ * Renders small colored status tag.
+ */
+
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
