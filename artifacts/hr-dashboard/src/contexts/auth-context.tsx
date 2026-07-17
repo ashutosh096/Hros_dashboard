@@ -1,3 +1,8 @@
+/**
+ * @fileoverview React Context provider for handling authentication state.
+ * Exposes login, logout, and current logged-in user profile attributes.
+ */
+
 import { createContext, useContext, useState, useEffect, type ReactNode } from "react";
 
 export type UserRole = "ADMIN" | "EMPLOYEE";
