@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Separator line component.
+ * Visual dividing lines for grids and cards.
+ */
+
 import * as React from "react"
 import * as SeparatorPrimitive from "@radix-ui/react-separator"
 
