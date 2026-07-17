@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Command primitive components.
+ * Provides searchable menu overlays utilizing command palettes.
+ */
+
 "use client"
 
 import * as React from "react"
