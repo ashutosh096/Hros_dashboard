@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Breadcrumbs navigation component.
+ * Renders path indicators for current site section.
+ */
+
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { ChevronRight, MoreHorizontal } from "lucide-react"
