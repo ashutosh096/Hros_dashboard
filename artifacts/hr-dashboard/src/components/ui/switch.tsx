@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Toggle switch element.
+ * Binary checkbox control styled like switches.
+ */
+
 import * as React from "react"
 import * as SwitchPrimitives from "@radix-ui/react-switch"
 
