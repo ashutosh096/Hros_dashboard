@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Dropdown Menu components.
+ * Renders overlay selection grids triggered by buttons.
+ */
+
 "use client"
 
 import * as React from "react"
