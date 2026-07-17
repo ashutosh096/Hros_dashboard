@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Employees registry dashboard view.
+ * Renders searchable list of employees and options to edit profiles.
+ */
+
 import { useListEmployees, useDeleteEmployee, getListEmployeesQueryKey } from "@workspace/api-client-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
