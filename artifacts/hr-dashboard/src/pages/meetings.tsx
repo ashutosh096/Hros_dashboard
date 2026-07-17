@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Meetings scheduler dashboard view.
+ * Displays interactive calendar and scheduling forms.
+ */
+
 import { useState, useEffect } from "react";
 import { useListMeetings, useCreateMeeting, useDeleteMeeting, useListEmployees, getListMeetingsQueryKey } from "@workspace/api-client-react";
 import { useQueryClient } from "@tanstack/react-query";
