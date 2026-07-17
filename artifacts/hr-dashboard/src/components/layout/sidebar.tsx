@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Navigation sidebar layout component.
+ * Provides links to main dashboard sub-views.
+ */
+
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import {
