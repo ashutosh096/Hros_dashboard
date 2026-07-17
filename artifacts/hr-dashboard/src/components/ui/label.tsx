@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Form Input label components.
+ * Captures caption tags mapped to fields.
+ */
+
 "use client"
 
 import * as React from "react"
