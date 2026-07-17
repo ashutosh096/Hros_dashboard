@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI One-Time-Password entry components.
+ * Renders grouped digit boxes for validation codes.
+ */
+
 import * as React from "react"
 import { OTPInput, OTPInputContext } from "input-otp"
 import { Minus } from "lucide-react"
