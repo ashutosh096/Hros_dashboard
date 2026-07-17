@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Pagination controls.
+ * Navigation buttons to query across pages.
+ */
+
 import * as React from "react"
 import { ChevronLeft, ChevronRight, MoreHorizontal } from "lucide-react"
 
