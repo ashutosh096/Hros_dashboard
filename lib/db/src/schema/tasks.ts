@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for task management.
+ * Tracks assignees, priorities, due dates, and completion status.
+ */
+
 import { pgTable, serial, integer, text, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
