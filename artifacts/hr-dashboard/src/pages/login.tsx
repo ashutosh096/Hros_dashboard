@@ -1,3 +1,8 @@
+/**
+ * @fileoverview User login page view.
+ * Collects credentials and initializes user authentication context.
+ */
+
 import { useState } from "react";
 import { useLocation } from "wouter";
 import { useAuth } from "@/contexts/auth-context";
