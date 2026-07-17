@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for service health checks.
+ * Returns success status to signify backend and DB availability.
+ */
+
 import { Router, type IRouter } from "express";
 import { HealthCheckResponse } from "@workspace/api-zod";
 
