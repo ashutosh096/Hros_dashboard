@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Dialog window components.
+ * Renders overlay modal popups for form entries.
+ */
+
 import * as React from "react"
 import * as DialogPrimitive from "@radix-ui/react-dialog"
 import { X } from "lucide-react"
