@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Input field elements.
+ * Base input fields supporting text, emails, and passwords.
+ */
+
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
