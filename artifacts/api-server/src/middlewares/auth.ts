@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express middleware for user session authentication.
+ * Validates JWT tokens and injects user profile into the request context.
+ */
+
 import type { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 
