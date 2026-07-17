@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Alert banner components.
+ * Renders warning, error, or info messages.
+ */
+
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
