@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Primary dashboard homepage view.
+ * Displays aggregate summary graphs and quick shortcut widgets.
+ */
+
 import { useState, useEffect } from "react";
 import {
   getListAttendanceQueryKey,
