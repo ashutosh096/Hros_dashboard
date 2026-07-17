@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Field layout components.
+ * Combines label, input, and validation error layouts.
+ */
+
 "use client"
 
 import { useMemo } from "react"
