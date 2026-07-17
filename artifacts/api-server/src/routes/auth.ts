@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for user authentication.
+ * Handles registration, token validation, login, and session logout.
+ */
+
 import { Router } from "express";
 import bcrypt from "bcryptjs";
 import { db, organizationsTable, usersTable, employeesTable } from "@workspace/db";
