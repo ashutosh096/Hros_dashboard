@@ -1,3 +1,8 @@
+/**
+ * @fileoverview 404 Not Found error view.
+ * Displays friendly error message and return link for broken paths.
+ */
+
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle } from "lucide-react";
 
