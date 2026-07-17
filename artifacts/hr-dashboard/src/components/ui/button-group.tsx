@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Button Group component.
+ * Groups buttons together inline with styled border joints.
+ */
+
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 
