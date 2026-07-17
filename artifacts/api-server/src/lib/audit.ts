@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Utilities for recording administrative action audit logs.
+ * Asynchronously stores event details to the database audit trail.
+ */
+
 import { db, auditLogsTable } from "@workspace/db";
 
 export async function logAuditEvent(
