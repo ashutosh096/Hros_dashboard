@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Collapsible container.
+ * Handles toggle action to display or hide detailed child items.
+ */
+
 "use client"
 
 import * as CollapsiblePrimitive from "@radix-ui/react-collapsible"
