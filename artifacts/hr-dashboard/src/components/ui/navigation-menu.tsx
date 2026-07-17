@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Navigation Menu wrapper components.
+ * Accessible menu links with slide out grids.
+ */
+
 import * as React from "react"
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu"
 import { cva } from "class-variance-authority"
