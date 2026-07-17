@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for announcement management.
+ * Exposes CRUD endpoints protected by authentication/tenant scopes.
+ */
+
 import { Router, type IRouter } from "express";
 import { eq, and, desc } from "drizzle-orm";
 import { db, announcementsTable } from "@workspace/db";
