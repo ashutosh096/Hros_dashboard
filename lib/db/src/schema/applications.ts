@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for job/leave applications.
+ * Stores application statuses, submitters, and metadata.
+ */
+
 import { pgTable, serial, integer, text, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
