@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Payroll management dashboard view.
+ * Computes salary and visualizes payment structures.
+ */
+
 import { useState } from "react";
 import { useAuth } from "@/contexts/auth-context";
 import { useQuery } from "@tanstack/react-query";
