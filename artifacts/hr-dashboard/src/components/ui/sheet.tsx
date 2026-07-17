@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Sheet drawer components.
+ * Side overlay panel panels sliding out from borders.
+ */
+
 "use client"
 
 import * as React from "react"
