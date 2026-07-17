@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for tenant organizations.
+ * Acts as the base unit for multi-tenancy configuration and branding.
+ */
+
 import { pgTable, serial, text, timestamp, jsonb } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
