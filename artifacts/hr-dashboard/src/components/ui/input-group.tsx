@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Input Group wrappers.
+ * Groups inputs with labels or buttons inline.
+ */
+
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
