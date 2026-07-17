@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Scroll Area components.
+ * Custom-styled scrollbars for overflows.
+ */
+
 import * as React from "react"
 import * as ScrollAreaPrimitive from "@radix-ui/react-scroll-area"
 
