@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Progress loading bar.
+ * Visual percent indicators for status values.
+ */
+
 "use client"
 
 import * as React from "react"
