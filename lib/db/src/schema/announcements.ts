@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for announcements.
+ * Defines the fields and relationships for organization-wide announcements.
+ */
+
 import { pgTable, serial, text, boolean, timestamp, integer } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
