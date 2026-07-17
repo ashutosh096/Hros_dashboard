@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for employee profiles.
+ * Manages core personal details, job titles, departments, and relations.
+ */
+
 import { pgTable, serial, text, timestamp, numeric, integer } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
