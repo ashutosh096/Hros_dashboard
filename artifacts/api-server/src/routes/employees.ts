@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for employee management.
+ * Manages listing, creating, and updating employee profiles.
+ */
+
 import { Router, type IRouter } from "express";
 import { eq, and } from "drizzle-orm";
 import { db, employeesTable } from "@workspace/db";
