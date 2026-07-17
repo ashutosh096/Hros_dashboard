@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Tasks board dashboard view.
+ * Lists project tasks organized by status and assignees.
+ */
+
 import { useState } from "react";
 import { useListTasks, useCreateTask, useUpdateTask, useListEmployees, getListTasksQueryKey } from "@workspace/api-client-react";
 import { useQueryClient } from "@tanstack/react-query";
