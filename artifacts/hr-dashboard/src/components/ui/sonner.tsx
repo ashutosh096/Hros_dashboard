@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Toast alerts engine.
+ * Configurations for global flash notification banners.
+ */
+
 "use client"
 
 import { useTheme } from "next-themes"
