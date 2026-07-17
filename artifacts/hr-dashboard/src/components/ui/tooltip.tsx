@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Tooltip primitive components.
+ * Inline labels appearing on hover durations.
+ */
+
 "use client"
 
 import * as React from "react"
