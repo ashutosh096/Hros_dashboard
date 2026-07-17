@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Calendar day picker component.
+ * Integrates interactive date picker grid.
+ */
+
 "use client"
 
 import * as React from "react"
