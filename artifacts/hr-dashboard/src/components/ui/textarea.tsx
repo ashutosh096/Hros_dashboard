@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Textarea input elements.
+ * Multi-line entry inputs for paragraphs and descriptions.
+ */
+
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
