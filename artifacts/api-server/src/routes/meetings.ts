@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for calendar events.
+ * Implements CRUD actions for scheduling internal meetings.
+ */
+
 import { Router, type IRouter } from "express";
 import { eq, and } from "drizzle-orm";
 import { db, meetingsTable } from "@workspace/db";
