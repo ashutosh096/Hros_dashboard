@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Alert Dialog component.
+ * Modal dialog to request confirmations for critical actions.
+ */
+
 import * as React from "react"
 import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog"
 
