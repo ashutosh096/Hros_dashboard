@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Card container component.
+ * Organizes layout sections in boxed panels.
+ */
+
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
