@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Applications submission and review dashboard view.
+ * Handles submission forms and admin approval queues.
+ */
+
 import { useState } from "react";
 import {
   useListApplications,
