@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Avatar image components.
+ * Renders profile image fallback with initials.
+ */
+
 "use client"
 
 import * as React from "react"
