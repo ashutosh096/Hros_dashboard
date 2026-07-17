@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Team management dashboard view.
+ * Displays team details, structure, and membership list.
+ */
+
 import { useState } from "react";
 import { useListEmployees, useCreateEmployee, useUpdateEmployee, getListEmployeesQueryKey } from "@workspace/api-client-react";
 import { useQueryClient } from "@tanstack/react-query";
