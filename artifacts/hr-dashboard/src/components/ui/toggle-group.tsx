@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Toggle groups items components.
+ * Inline button lists supporting multiple choices states.
+ */
+
 "use client"
 
 import * as React from "react"
