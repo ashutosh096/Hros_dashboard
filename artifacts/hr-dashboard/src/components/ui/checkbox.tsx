@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Checkbox input element.
+ * Renders interactive status selector box.
+ */
+
 import * as React from "react"
 import * as CheckboxPrimitive from "@radix-ui/react-checkbox"
 import { Check } from "lucide-react"
