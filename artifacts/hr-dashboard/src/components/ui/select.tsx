@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Select picker components.
+ * Form drop-down selection options lists.
+ */
+
 "use client"
 
 import * as React from "react"
