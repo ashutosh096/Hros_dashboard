@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for Google Calendar integration.
+ * Implements OAuth loops and meetings synchronisation.
+ */
+
 import { Router, type IRouter } from "express";
 import { eq, and } from "drizzle-orm";
 import { db, meetingsTable, usersTable } from "@workspace/db";
