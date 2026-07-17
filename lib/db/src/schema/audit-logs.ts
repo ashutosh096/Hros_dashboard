@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Database schema definition for system audit logs.
+ * Records administrative actions and data modifications for audit trails.
+ */
+
 import { pgTable, serial, integer, text, timestamp, jsonb } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
