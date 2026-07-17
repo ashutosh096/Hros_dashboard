@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Accordion primitive.
+ * Renders collapsible content panels utilizing Radix UI.
+ */
+
 import * as React from "react"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
 import { ChevronDown } from "lucide-react"
