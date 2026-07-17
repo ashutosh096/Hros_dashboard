@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Loading spinner icon.
+ * Spinning ring signifying data fetch activity.
+ */
+
 import { Loader2Icon } from "lucide-react"
 
 import { cn } from "@/lib/utils"
