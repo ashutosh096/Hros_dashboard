@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Radio selection group.
+ * List selector where only one choice is active.
+ */
+
 import * as React from "react"
 import * as RadioGroupPrimitive from "@radix-ui/react-radio-group"
 import { Circle } from "lucide-react"
