@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Empty state banner components.
+ * Displays illustration and helper options for empty listings.
+ */
+
 import { cva, type VariantProps } from "class-variance-authority"
 
 import { cn } from "@/lib/utils"
