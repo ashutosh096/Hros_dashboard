@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Main structural layout for authenticated pages.
+ * Renders sidebar, header navigation, and child content viewport.
+ */
+
 import { Sidebar } from "./sidebar";
 import { useAuth } from "@/contexts/auth-context";
 import { Bell, RefreshCw } from "lucide-react";
