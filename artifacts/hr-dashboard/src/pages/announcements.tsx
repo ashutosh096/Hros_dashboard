@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Announcements dashboard view.
+ * Allows listing and managing organization announcements with role access.
+ */
+
 import { useState } from "react";
 import { useListAnnouncements, useCreateAnnouncement, useDeleteAnnouncement, getListAnnouncementsQueryKey } from "@workspace/api-client-react";
 import { useQueryClient } from "@tanstack/react-query";
