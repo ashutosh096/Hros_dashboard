@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for attendance logs.
+ * Handles clock-in/out triggers, reporting, and logs export.
+ */
+
 import { Router, type IRouter } from "express";
 import { eq, and } from "drizzle-orm";
 import { db, attendanceTable, employeesTable } from "@workspace/db";
