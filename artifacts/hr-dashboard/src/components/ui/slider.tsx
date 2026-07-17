@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Custom UI Slider range pickers.
+ * Select values by dragging anchors on tracks.
+ */
+
 import * as React from "react"
 import * as SliderPrimitive from "@radix-ui/react-slider"
 
