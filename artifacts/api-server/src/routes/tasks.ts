@@ -1,3 +1,8 @@
+/**
+ * @fileoverview Express router endpoints for tasks and task tracking.
+ * Supports creating, updating status, and assigning tasks.
+ */
+
 import { Router, type IRouter } from "express";
 import { eq, and } from "drizzle-orm";
 import { db, tasksTable, employeesTable } from "@workspace/db";
